@@ -7,20 +7,15 @@
 
   <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
-  <script src="zombie.js"></script>
 </head>
 
 <body>
     <a-scene>
-      <a-sky color="#3bb0ff"></a-sky>
+      <a-sky color="#3fff"></a-sky>
       <a-assets>
-        <a-asset-item id="re" src="assets/radiation_environment/scene.gltf"></a-asset-item>
-        <a-assets-item id="zombie" src="assets/zombie/scene.gltf"></a-assets-item>
+        <a-asset-item id="castle" src="assets/castel/scene.gltf"></a-asset-item>
       </a-assets>
-     <a-entity gltf-model="#re" position="-10 0 -12" scale="2 2 2"
-     animation-mixer
-       zombie-fest></a-entity>
-
+     <a-entity gltf-model="#castle" position="-10 0 -12" scale="2 2 2"></a-entity>
 
 
     </a-scene>
